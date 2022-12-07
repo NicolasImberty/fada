@@ -1,13 +1,17 @@
 Package: fada
 Title: rien comppris
 Version: 0.0.0.9000
-Authors@R: person('nicolas', 'imberty', email = 'nicolas.imberty@gmail.com', role = c('cre', 'aut'))
+Authors@R: 
+    person("nicolas", "imberty", , "nicolas.imberty@gmail.com", role = c("cre", "aut"))
 Description: Une erreur de dingue.
 License: MIT + file LICENSE
+URL: https://github.com/NicolasImberty/fada
+BugReports: https://github.com/NicolasImberty/fada/issues
 Imports: 
     config (>= 0.3.1),
     golem (>= 0.3.3),
+    lubridate,
     shiny (>= 1.7.2)
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.1
+RoxygenNote: 7.2.2

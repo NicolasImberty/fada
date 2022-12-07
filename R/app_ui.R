@@ -3,6 +3,9 @@
 #' @param request Internal parameter for `{shiny}`.
 #'     DO NOT REMOVE.
 #' @import shiny
+#'
+#' @importFrom lubridate today
+#'
 #' @noRd
 app_ui <- function(request) {
   tagList(
@@ -10,7 +13,11 @@ app_ui <- function(request) {
     golem_add_external_resources(),
     # Your application UI logic
     fluidPage(
-      h1("fada")
+      h1("fada"),
+
+      h2(Sys.Date()),
+      h2(today())
+
     )
   )
 }
